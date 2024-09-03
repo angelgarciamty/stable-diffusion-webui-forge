@@ -50,4 +50,5 @@ trace.json
 /sysinfo-????-??-??-??-??.json
 /test/results.xml
 coverage.xml
+.env
 **/tests/**/expectations

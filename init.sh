@@ -1,3 +1,5 @@
+source .env
+
 git clone https://github.com/angelgarciamty/stable-diffusion-webui-forge.git
 cd stable-diffusion-webui-forge
 bash webui.sh -f
@@ -7,4 +9,4 @@ python3 launch.py --share
 #Loras
 #----------------------
 #amateur photography
-#wget https://civitai.com/api/download/models/756149?token=b871fc8674ff2ee7f953377f8943abfd -O /workspace/stable-diffusion-webui-forge/models/lora/amateur_photography.safetensors
+#wget https://civitai.com/api/download/models/756149?token=$hftoken -O /workspace/stable-diffusion-webui-forge/models/lora/amateur_photography.safetensors
